@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Buyer Finder - Free Tender Alerts</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body {
+  background: linear-gradient(135deg, #00C9FF 0%, #92FE9D 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.container {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+h1 {
+  color: #00C9FF;
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.subtitle {
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+}
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+input:focus, textarea:focus {
+  border-color: #00C9FF;
+  outline: none;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #00C9FF, #92FE9D);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+button:hover {
+  transform: scale(1.02);
+}
+.info {
+  background: #f0f9ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #333;
+  border-left: 4px solid #00C9FF;
+}
+.made-by {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #f0f0f0;
+  color: #666;
+  font-size: 14px;
+}
+.made-by a {
+  color: #00C9FF;
+  text-decoration: none;
+  font-weight: 700;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🎯 IT Buyer Finder</h1>
+  <p class="subtitle">Government tenders automatically scan karo</p>
+
+  <label>📦 Aapka Product</label>
+  <input type="text" id="product" placeholder="firewall, laptop, server...">
+
+  <label>📍 Location</label>
+  <input type="text" id="location" placeholder="Faridabad, Delhi, Mumbai...">
+
+  <label>📧 Email (Alerts ke liye)</label>
+  <input type="email" id="email" placeholder="aapka@email.com">
+
+  <button onclick="generateLink()">🚀 Setup Karo</button>
+
+  <div class="info" id="result" style="display:none;">
+    <b>✅ Ready!</b><br>
+    Ab GitHub par jaake apni API keys daalo aur tool chalao.
+  </div>
+
+  <div class="made-by">
+    Made with ❤️ by <a href="https://github.com/KuldeepLinux">Kuldeep</a> — CEH Certified
+  </div>
+</div>
+
+<script>
+function generateLink() {
+  const product = document.getElementById('product').value;
+  const location = document.getElementById('location').value;
+  const email = document.getElementById('email').value;
+
+  if (!product || !location || !email) {
+    alert('Saari fields bharo!');
+    return;
+  }
+
+  // Keywords file ke liye text tayar karo
+  const keywords = `${product}, ${location}`;
+  
+  document.getElementById('result').style.display = 'block';
+  document.getElementById('result').innerHTML = `
+    <b>✅ Aapki details ready hain!</b><br><br>
+    <b>Product:</b> ${product}<br>
+    <b>Location:</b> ${location}<br>
+    <b>Email:</b> ${email}<br><br>
+    <a href="https://github.com/KuldeepLinux/it-buyer-finder/generate" 
+       style="display:block; text-align:center; background:#00C9FF; color:white; padding:12px; border-radius:8px; text-decoration:none; margin-top:10px;">
+       👉 GitHub Par Setup Karo
+    </a>
+  `;
+}
+</script>
+</body>
+</html>
