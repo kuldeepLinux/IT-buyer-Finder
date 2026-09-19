@@ -1,5 +1,4 @@
 # IT-buyer-Finder
-IT hardware company ke liye tender alert tool
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=250&section=header&text=IT%20Buyer%20Finder&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Tender%20Alert%20System&descAlignY=58&descSize=22" width="100%"/>
@@ -15,26 +14,18 @@ IT hardware company ke liye tender alert tool
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automated-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![AI Powered](https://img.shields.io/badge/AI-Groq-orange?style=for-the-badge)
 
-<br/><br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 </div>
 
 ---
 
-<div align="center">
-
 ## 🎯 Kya Karta Hai Yeh Tool?
-
-</div>
 
 <table align="center">
 <tr>
 <td align="center" width="25%">
 <img src="https://img.icons8.com/fluency/96/search.png" width="60"/><br/>
 <b>Scan</b><br/>
-CPWD tenders<br/>automatically
+Government tenders<br/>automatically
 </td>
 <td align="center" width="25%">
 <img src="https://img.icons8.com/fluency/96/brain.png" width="60"/><br/>
@@ -56,21 +47,19 @@ Turant buyer<br/>se connect
 
 ---
 
-<div align="center">
-
 ## 🚀 Kaise Use Karein
-
-</div>
 
 ```bash
 # 1. Repo fork karo
+
 # 2. Secrets add karo (Settings → Secrets → Actions)
-GROQ_API_KEY      → console.groq.com se
-SENDGRID_API_KEY  → sendgrid.com se
-NOTIFY_EMAIL      → aapka email
+GROQ_API_KEY        → console.groq.com se
+GMAIL_APP_PASSWORD  → Google App Password (16 characters)
+NOTIFY_EMAIL        → aapka email
 
 # 3. Keywords daalo
 config/keywords.txt → "firewall, laptop, server, Faridabad"
 
 # 4. Actions tab → "IT Tender Monitor" → Run workflow
+
 # 5. Bas! Email alerts aane lagenge 🎉
