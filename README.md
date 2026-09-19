@@ -1,6 +1,64 @@
 # IT-buyer-Finder
+
 <div align="center">
 
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:92FE9D,100:00C9FF&height=250&section=footer&text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Kuldeep&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=70" width="100%"/>
+
+<br/>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=45&duration=2500&pause=800&color=00C9FF&center=true&vCenter=true&width=700&lines=Made+by+Kuldeep;CEH+%7C+Cybersecurity+Expert;Open+Source+%E2%9C%A8;AI+%2B+Automation+Enthusiast" alt="Made by Kuldeep" />
+</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Made%20by-Kuldeep-00C9FF?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/CEH-Certified-FF6B6B?style=for-the-badge&logo=checkmarx&logoColor=white" />
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
+
+<br/><br/>
+
+<!-- Social Links -->
+<a href="https://github.com/KuldeepLinux">
+  <img src="https://img.shields.io/badge/GitHub-KuldeepLinux-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://linkedin.com/in/kuldeep">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://twitter.com/kuldeep">
+  <img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+</a>
+
+<br/><br/>
+
+<!-- Animated Line -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br/>
+
+<!-- Quote -->
+<i>"The quieter you become, the more you are able to hear."</i>
+
+<br/><br/>
+
+<!-- Profile Views -->
+<img src="https://komarev.com/ghpvc/?username=KuldeepLinux&label=Profile%20Views&color=00C9FF&style=for-the-badge" />
+
+<br/><br/>
+
+<!-- Stars -->
+<img src="https://img.shields.io/github/stars/KuldeepLinux/it-buyer-finder?style=for-the-badge&color=FFD700&label=Stars" />
+<img src="https://img.shields.io/github/forks/KuldeepLinux/it-buyer-finder?style=for-the-badge&color=92FE9D&label=Forks" />
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=120&section=footer" width="100%"/>
+
+</div>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=250&section=header&text=IT%20Buyer%20Finder&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Tender%20Alert%20System&descAlignY=58&descSize=22" width="100%"/>
 
 <a href="https://git.io/typing-svg">
